@@ -13,7 +13,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("TheIronhidex/devops-repo")
+        app = docker.build("theironhidex/hello-world")
     }
 
     stage('Test image') {
