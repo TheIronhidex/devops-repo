@@ -23,7 +23,6 @@ git([url: 'https://github.com/TheIronhidex/devops-repo.git', branch: 'main', cre
                 echo "Building ${env.JOB_NAME}..."
             }
         }
-    /*
 stage('Building image') {
 steps{
 script {
@@ -45,6 +44,5 @@ steps{
 sh "docker rmi $imagename:$BUILD_NUMBER"
 }
 }
-*/
 }
 }
